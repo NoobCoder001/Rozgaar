@@ -1,0 +1,39 @@
+
+body{
+  background-color: #f9fcfb;
+
+}
+.container-fluid{
+  padding : 7% 15%;
+
+}
+.social-icon{
+  margin : 20px  10px;
+}
+#Footer{
+  text-align: center;
+}
+
+#NavBar{
+  background-color: red;
+}
+
+.navbar{
+  padding : 0 0 4.5rem;
+}
+
+.navbar-brand{
+  color: black;
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding : 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
