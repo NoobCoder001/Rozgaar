@@ -1,79 +1,39 @@
-body {
+
+body{
   background-color: #f9fcfb;
-}
 
-.container-fluid {
-  padding: 7% 15%;
 }
+.container-fluid{
+  padding : 7% 15%;
 
-.social-icon {
-  margin: 20px 10px;
 }
-
-#Footer {
+.social-icon{
+  margin : 20px  10px;
+}
+#Footer{
   text-align: center;
 }
 
-#NavBar {
+#NavBar{
   background-color: red;
 }
 
-.navbar {
-  padding: 0 0 4.5rem;
+.navbar{
+  padding : 0 0 4.5rem;
 }
 
-.navbar-brand {
+.navbar-brand{
   color: black;
   font-family: "Ubuntu";
   font-size: 3.5rem;
   font-weight: bold;
 }
 
-.nav-item {
-  padding: 0 18px;
+.nav-item{
+  padding : 0 18px;
 }
 
-.nav-link {
+.nav-link{
   font-size: 1.2rem;
   font-family: "Montserrat";
-}
-
-/* Job Categories Part */
-.text-center {
-  text-align: center;
-}
-
-.sector-tile {
-  padding-top: 1px;
-  background: #fff;
-  margin-bottom: 10px;
-  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.12), 0 1px 4px 0 rgba(0, 0, 0, 0.06);
-  border-radius: 6px;
-  transition: all 0.1s ease-in-out
-}
-
-.sector-tile:hover {
-  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.72), 0 1px 4px 0 rgba(0, 0, 0, 0.33)
-}
-
-.category-title {
-  font-size: 20px;
-  font-weight: normal;
-  text-transform: uppercase;
-  padding-bottom: 15px;
-  color: #494949
-}
-
-.center-block {
-  display: block;
-  margin-right: auto;
-  margin-left: auto
-}
-
-.newsectors {
-  position: relative;
-  width: 76px;
-  height: 76px;
-  margin-top: 20px;
-  margin-bottom: 20px
 }
