@@ -8,6 +8,7 @@
   <!-- css -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
@@ -16,7 +17,6 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
 
   <!-- bootstrap -->
-
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -29,33 +29,37 @@
 
   <section id="NavBar">
 
+    <nav class="navbar fixed-top bg-dark navbar-expand-lg navbar-dark">
 
-     <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="favicon.ico" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        Rozgaar</a>
 
-       <nav class="navbar  navbar-expand-lg navbar-dark">
-         <a class="navbar-brand" href="">Rozgaar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-         </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
 
-         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-           <ul class="navbar-nav ml-auto">
-             <li class="nav-item">
-               <a class="nav-link" href="#SearchTabs">Job Search</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="#Categories">Work From Home</a>
-             </li>
-             <li class="nav-item">
-              <button type="button" name="button">Login/Signup</button>
-             </li>
-           </ul>
-         </div>
-       </nav>
-     </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#SearchTabs">Job Search | </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Categories"> Work From Home | </a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-primary"> Login</button>
+          </li>
 
-    <hr style="color: grey;"></hr>
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <hr style="color: grey;">
+    </hr>
   </section>
 
 
@@ -67,15 +71,14 @@
 
   <section id="SearchTabs">
 
-     <label for="">Find Jobs</label>
-     <input type="text" name="" value="">
+    <label for="">Find Jobs</label>
+    <input type="text" name="" value="">
 
-    <hr style="color: grey;"></hr>
-      <br>
+    <hr style="color: grey;">
+    </hr>
+    <br>
 
   </section>
-
-
 
 
 
@@ -88,97 +91,112 @@
 
   <section id="WorkFlow">
 
-     <h1 style="text-align : center; " >How We Work</h1>
+    <h1 style="text-align : center; ">How We Work</h1>
 
-          <div class="container-fluid row">
+    <div class="container-fluid row">
 
-            <div class="col">
-              <p>Post Job</p>
-          </div>
+      <div class="col">
+        <p>Post Job</p>
+      </div>
 
-          <div class="col">
-            <p>We Search</p>
-        </div>
+      <div class="col">
+        <p>We Search</p>
+      </div>
 
-         <div class="col">
-          <p>Job Seeker Contacts You</p>
-        </div>
+      <div class="col">
+        <p>Job Seeker Contacts You</p>
+      </div>
 
-        <div class="col">
-          <p>Hire</p>
-        </div>
+      <div class="col">
+        <p>Hire</p>
+      </div>
 
 
-          </div>
+    </div>
 
-      <hr style="color: grey;"></hr>
+    <hr style="color: grey;">
+    </hr>
 
   </section>
 
 
-
-
-
-
-
-
-
-
-
+  <!-- Work Done By :- Abhishek Ranjan Singh -->
 
   <section id="Categories">
 
-      <h1 style= "text-align : center;" >Job Categories</h1>
+    <h1 class="text-center">Job Categories</h1>
 
-     <div class="container-fluid">
+    <div class="container-fluid text-center">
 
-       <div class="row">
+      <div class="row">
 
-         <div class="col">
-         <p>Delivery Boy</p>
-         </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="sector-tile"><a href="https://www.google.com" style="text-decoration: none !important;">
+              <div class="center-block newsectors"><img src="images/taxi-driver-2.png" alt=""></div>
+              <div class="category-title">DRIVER</div>
+            </a></div>
+        </div>
 
-         <div class="col">
-           <p>House Maid</p>
-           </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="sector-tile"><a href="https://www.google.com" style="text-decoration: none !important;">
+              <div class="center-block newsectors"><img src="images/delivery-boy.png" alt=""></div>
+              <div class="category-title">DELIVERY BOY</div>
+            </a></div>
+        </div>
 
-           <div class="col">
-             <p>House Servant</p>
-           </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="sector-tile"><a href="https://www.google.com" style="text-decoration: none !important;">
+              <div class="center-block newsectors"><img src="images/field-sales-2.png" alt=""></div>
+              <div class="category-title">FIELD SALES</div>
+            </a></div>
+        </div>
 
-           <div class="col">
-             <p>Carpenter</p>
-           </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="sector-tile"><a href="https://www.google.com" style="text-decoration: none !important;">
+              <div class="center-block newsectors"><img src="images/receptionist-2.png" alt=""></div>
+              <div class="category-title">RECEPTIONIST</div>
+            </a></div>
+        </div>
 
-       </div>
+      </div>
 
-       <div class="row">
 
-         <div class="col">
-           <p>Peon</p>
-         </div>
+      <div class="row">
 
-         <div class="col">
-           <p>Receptionist</p>
-         </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="sector-tile"><a href="https://www.google.com" style="text-decoration: none !important;">
+              <div class="center-block newsectors"><img src="images/cook-2.png" alt=""></div>
+              <div class="category-title">COOK</div>
+            </a></div>
+        </div>
 
-         <div class="col">
-           <p>Driver</p>
-         </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="sector-tile"><a href="https://www.google.com" style="text-decoration: none !important;">
+              <div class="center-block newsectors"><img src="images/maid-2.png" alt=""></div>
+              <div class="category-title">MAID/SERVANT</div>
+            </a></div>
+        </div>
 
-         <div class="col">
-            <p>Mason</p>
-         </div>
-       </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="sector-tile"><a href="https://www.google.com" style="text-decoration: none !important;">
+              <div class="center-block newsectors"><img src="images/bricklayer-2.png" alt=""></div>
+              <div class="category-title">MASON</div>
+            </a></div>
+        </div>
 
-     </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="sector-tile"><a href="https://www.google.com" style="text-decoration: none !important;">
+              <div class="center-block newsectors"><img src="images/security_guard-2.png" alt=""></div>
+              <div class="category-title">SECURITY GUARD</div>
+            </a></div>
+        </div>
 
-      <hr style="color: grey;"></hr>
+      </div>
 
+    </div>
+
+    <hr style="color: grey;">
   </section>
-
-
-
 
 
 
@@ -191,25 +209,40 @@
 
   <section id="AboutUs">
 
-    <footer id="Footer">
+    <div class="contact-me">
+      <h2 class="about">About Us</h2>
 
-      <div class="container-fluid">
+        <div id="container" class="team">
+          <button type="button" class="btn btn-outline-dark mr-3 "> About Rozgaar</button>
+        <a href="team.html"><button type="button" class="btn btn-outline-success  ml-3 "> Our Team</button></a>
 
+        </div>
 
-      <i class="social-icon fab fa-twitter footer-element"></i>
-      <i class="social-icon fab fa-facebook-f footer-element"></i>
-      <i class="social-icon fab fa-instagram footer-element"></i>
-      <i class="social-icon fas fa-envelope footer-element"></i>
-
-        <p>© Copyright 2020</p>
       </div>
-    </footer>
+
+
+
+    <div class="bottom-container">
+      <u><h5>Follow Us</h5></u>
+      <ul class="list-unstyled text-small">
+        <a href="https://twitter.com/?lang=en"> <i class="social-icon fab fa-twitter footer-element"></i></a>
+        <a href="https://www.facebook.com/"> <i class="social-icon fab fa-facebook-f footer-element"></i></a>
+        <a href="https://www.instagram.com/"> <i class="social-icon fab fa-instagram footer-element"></i></a>
+        <a href="https://mail.google.com/"> <i class="social-icon fas fa-envelope footer-element"></i></a>
+      </ul>
+
+      <p>© 2020 Rozgaar.com</p>
+    </div>
+
+
 
   </section>
 
+  <script src="index.js" charset="utf-8">
+    < / script>
 
+    <
+    /body >
 
-  <script src="index.js" charset="utf-8"></ script>
-</body>
-
-</html>
+    <
+    /html>
