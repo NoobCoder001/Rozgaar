@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rozgaar</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- Fontawesome icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
+  <!-- bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+
+  <section id="NavBar">
+
+    <nav class="navbar fixed-top bg-dark navbar-expand-lg navbar-dark">
+
+      <a class="navbar-brand" href="#">
+        <img src="favicon.ico" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        Rozgaar</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#SearchTabs">Job Search | </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Categories"> Work From Home | </a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-primary"> Login</button>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <hr style="color: grey;">
+  </section>
+
+
+
+
+
+
+
+<!--work done by:- saurav-->
+  <section id="SearchTabs">
+   <br>
+    
+   <div class="shadow">
+      
+   <div class="row ">
+    <div class="col-md-9 xp">
+    <form>
+  <div class="form-row align-items-center forms">
+    <div class="col-sm-4 my-1 ikons">
+      <label class="sr-only" for="inlineFormInputName">Name</label>
+      <h3 class="wht">WHAT</h3>
+      <input type="text" class="form-control frmcntrl" id="inlineFormInputName" placeholder="Job-Category">
+      <i class="ikon"><svg width="1.4em" height="1.8em" viewBox="0 0 16 16" class="bi bi-bag-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M1 4h14v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4zm7-2.5A2.5 2.5 0 0 0 5.5 4h-1a3.5 3.5 0 1 1 7 0h-1A2.5 2.5 0 0 0 8 1.5z"/>
+</svg></i>
+    </div>
+    <div class="col-sm-4 my-1 ikons">
+      <label class="sr-only" for="inlineFormInputName">Name</label>
+      <h3 class="wht">WHERE</h3>
+      <input type="text" class="form-control frmcntrl" id="inlineFormInputName" placeholder="Location">
+      <i class="ikon"><svg width="1.5em" height="1.8em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+</svg></i> 
+    </div>
+    <div class="col-auto my-1">
+      <button type="submit" class="btn btn-primary findlogo">Find Jobs</button>
+    </div>
+  </div>
+  <div><button type="button" class="btn btn-primary  btn-lg iwj">I Need Job </button></div>
+      <div><button type="button" class="btn btn-primary btn-lg iwk">I Need Staff</button></div>
+      <br><br>
+</form>
+    </div>
+    <div class="col-md-3 lp">
+        <div><h4 class="rvw">Success Stories</h4></div>
+        <div id="carouselExampleIndicators" class="carousel slide slider" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="card setcrd" style="width: 18rem;">
+  <img src="/images/security_guard-2.png" class="card-img-top rounded-circle game" alt="...">
+  <div class="card-body">
+    <p class="card-text sjana">"Some quick example text to build on the card title and make up the bulk of the card's content."</p>
+  </div>
+</div>
+    </div>
+    <div class="carousel-item">
+       <div class="card setcrd" style="width: 18rem;">
+  <img src="/images/cook-2.png" class="card-img-top rounded-circle game" alt="...">
+  <div class="card-body">
+    <p class="card-text sjana">"Some quick example text to build on the card title and make up the bulk of the card's content."</p>
+  </div>
+</div>
+    </div>
+    <div class="carousel-item">
+       <div class="card setcrd" style="width: 18rem;">
+  <img src="/images/maid-2.png" class="card-img-top rounded-circle game" alt="...">
+  <div class="card-body">
+    <p class="card-text sjana">"Some quick example text to build on the card title and make up the bulk of the card's content."</p>
+  </div>
+</div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </div>
+  </div>
+   </div>
+   <br>
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <section id="WorkFlow">
+
+    <h1 style="text-align : center; ">How We Work</h1>
+
+    <div class="container-fluid row">
+
+      <div class="col">
+        <p>Post Job</p>
+      </div>
+
+      <div class="col">
+        <p>We Search</p>
+      </div>
+
+      <div class="col">
+        <p>Job Seeker Contacts You</p>
+      </div>
+
+      <div class="col">
+        <p>Hire</p>
+      </div>
+
+
+    </div>
+
+    <hr style="color: grey;">
+
+  </section>
+
+
+  <!-- Work Done By :- Abhishek Ranjan Singh -->
+
+  <section id="Categories">
+
+    <h1 class="text-center">Job Categories</h1>
+
+    <div class="container-fluid text-center">
+
+      <div class="row">
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="sector-tile"><a href="https://www.google.com" style="text-decoration: none !important;">
+              <div class="center-block newsectors"><img src="images/taxi-driver-2.png" alt=""></div>
+              <div class="category-title">DRIVER</div>
+            </a></div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="sector-tile"><a href="https://www.google.com" style="text-decoration: none !important;">
+              <div class="center-block newsectors"><img src="images/delivery-boy.png" alt=""></div>
+              <div class="category-title">DELIVERY BOY</div>
+            </a></div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="sector-tile"><a href="https://www.google.com" style="text-decoration: none !important;">
+              <div class="center-block newsectors"><img src="images/field-sales-2.png" alt=""></div>
+              <div class="category-title">FIELD SALES</div>
+            </a></div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="sector-tile"><a href="https://www.google.com" style="text-decoration: none !important;">
+              <div class="center-block newsectors"><img src="images/receptionist-2.png" alt=""></div>
+              <div class="category-title">RECEPTIONIST</div>
+            </a></div>
+        </div>
+
+      </div>
+
+
+      <div class="row">
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="sector-tile"><a href="https://www.google.com" style="text-decoration: none !important;">
+              <div class="center-block newsectors"><img src="images/cook-2.png" alt=""></div>
+              <div class="category-title">COOK</div>
+            </a></div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="sector-tile"><a href="https://www.google.com" style="text-decoration: none !important;">
+              <div class="center-block newsectors"><img src="images/maid-2.png" alt=""></div>
+              <div class="category-title">MAID/SERVANT</div>
+            </a></div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="sector-tile"><a href="https://www.google.com" style="text-decoration: none !important;">
+              <div class="center-block newsectors"><img src="images/bricklayer-2.png" alt=""></div>
+              <div class="category-title">MASON</div>
+            </a></div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="sector-tile"><a href="https://www.google.com" style="text-decoration: none !important;">
+              <div class="center-block newsectors"><img src="images/security_guard-2.png" alt=""></div>
+              <div class="category-title">SECURITY GUARD</div>
+            </a></div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <hr style="color: grey;">
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <section id="AboutUs" class="babu">
+
+    <div class="contact-me">
+      <h2 class="about">About Us</h2>
+
+        <div id="container" class="team">
+          <button type="button" class="btn btn-outline-dark mr-3 "> About Rozgaar</button>
+        <a href="team.html"><button type="button" class="btn btn-outline-success  ml-3 "> Our Team</button></a>
+
+        </div>
+
+      </div>
+
+
+
+    <div class="bottom-container">
+      <u><h5>Follow Us</h5></u>
+      <ul class="list-unstyled text-small">
+        <a href="https://twitter.com/?lang=en"> <i class="social-icon fab fa-twitter footer-element"></i></a>
+        <a href="https://www.facebook.com/"> <i class="social-icon fab fa-facebook-f footer-element"></i></a>
+        <a href="https://www.instagram.com/"> <i class="social-icon fab fa-instagram footer-element"></i></a>
+        <a href="https://mail.google.com/"> <i class="social-icon fas fa-envelope footer-element"></i></a>
+      </ul>
+
+      <p>© 2020 Rozgaar.com</p>
+    </div>
+
+
+
+  </section>
+
+       <script src="index.js" charset="utf-8"></script>
+
+    </body>
+
+    </html>

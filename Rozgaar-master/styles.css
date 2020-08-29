@@ -1,0 +1,198 @@
+
+body{
+  background-color: #f9fcfb;
+    margin: 0;
+}
+.babu
+{
+    text-align: center;
+}
+.container-fluid{
+  padding : 7% 15%;
+
+}
+.social-icon{
+  margin : 10px  10px;
+}
+.Footer{
+  text-align: center;
+}
+/* #NavBar{
+  background-color: grey;
+}
+
+.navbar{
+  padding : 0 0 4.5rem;
+}
+
+.navbar-brand{
+  margin-left: 25px ;
+  color: black;
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding : 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+} */
+
+/* Job Categories Part */
+.text-center{
+text-align: center;
+}
+.sector-tile {
+padding-top: 1px;
+background: #fff;
+margin-bottom: 10px;
+box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.12), 0 1px 4px 0 rgba(0, 0, 0, 0.06);
+border-radius: 6px;
+transition: all 0.1s ease-in-out
+}
+
+.sector-tile:hover {
+box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.72), 0 1px 4px 0 rgba(0, 0, 0, 0.33)
+}
+.category-title {
+font-size: 20px;
+font-weight: normal;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  color: #494949
+}
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto
+}
+.newsectors {
+  position: relative;
+  width: 76px;
+  height: 76px;
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+
+.about{
+  margin-bottom: 30px;
+  
+}
+
+.team{
+  margin-bottom: 30px;
+}
+.mast{
+  text-align: center;
+}
+.shadow
+{
+    width:100%;
+}
+
+.forms
+{
+    margin-top: 100px;
+    margin-left:18%;
+}
+.frmcntrl
+{
+    height:45px;
+    border-radius:7px;
+    font-size: 1.3em;
+    border-bottom-color: darkgrey;
+}
+
+.findlogo
+{
+    margin-top: 13px;
+    margin-left: 2px;
+    height:45px;
+    border-radius:7px;
+    width:110px;
+    background-color:#494949;
+}
+.findlogo:hover
+{
+    background-color:rgb(30,40,50);
+}
+.wht
+{
+    font-family:sans-serif;
+    font-weight:600;
+}
+.ikon
+{
+    position: relative;
+  opacity: 0.6;
+  top:-35px;
+    left:8px;
+}
+.ikons input[type=text]
+{
+   padding-left: 40px;
+}
+.iwj
+{
+    height:120px;
+    width:250px;
+   margin-right: 30%;
+    margin-top: 15px;
+    font-size:2em;
+    margin-left:35%;
+    background-color: #494949;
+}
+.iwj:hover
+{
+    background-color:rgb(30,40,50);
+}
+.iwk
+{
+    height:120px;
+    width:250px;
+   margin-left: 35%;
+    margin-top: 50px;
+    font-size:2em;
+    background-color: #494949;
+}
+.iwk:hover
+{
+    background-color:rgb(30,40,50)
+}
+.rvw
+{
+    text-align:center;
+    font-family:sans-serif;
+    font-weight:600;
+    margin-top:50px;
+    font-size: 2.1em;
+    text-decoration: underline;
+}
+.slider
+{
+    height:450px;
+}
+.game
+{
+    height:50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top:10px;
+}
+.sjana
+{
+ font-size:1.5em;
+    margin-top: 20px;
+    margin-left:20px;
+    font-family:sans-serif;
+}
+.setcrd
+{
+    margin-left: 25px;
+    width:100%;
+    height:427px;
+}
